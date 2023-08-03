@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:rest_api/Screens/complex_json.dart';
+import 'package:rest_api/Screens/complex_wo_model.dart';
 import 'package:rest_api/Screens/example_2.dart';
 
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ComplexJson(),
+      home: const ComplexWoModel(),
     );
   }
 }
